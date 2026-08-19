@@ -1,0 +1,13 @@
+{
+  "info": {
+    "author": "Hallkezz",
+    "author_url": "https://github.com/Hallkezz",
+    "description": "OBJ loader for Just Cause 2: Multiplayer Mod",
+    "name": "ObjLoader"
+  },
+
+  "resources": {
+    "dingus_nowhiskers.jpg": "https://raw.githubusercontent.com/Hallkezz/JC2MP-ObjLoader/refs/heads/main/textures/dingus_nowhiskers.jpg",
+    "dingus_whiskers.tga.png": "https://raw.githubusercontent.com/Hallkezz/JC2MP-ObjLoader/refs/heads/main/textures/dingus_whiskers.tga.png"
+  }
+}
