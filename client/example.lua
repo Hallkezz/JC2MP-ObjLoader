@@ -71,7 +71,7 @@ function ModelSpawner:KeyUp(args)
 end
 
 function ModelSpawner:GameRenderOpaque()
-    if not self.model then return end
+    if not (self.model or self.position or self.angle) then return end
 
     local pos = self.position + self.angle * self.offset
     local angle = self.angle * Angle(math.pi, 0, 0)
@@ -86,7 +86,7 @@ function ModelSpawner:GameRenderOpaque()
 end
 
 function ModelSpawner:GameRender()
-    if not self.model then return end
+    if not (self.model or self.position or self.angle) then return end
 
     local pos = self.position + self.angle * self.offset
     local angle = self.angle * Angle(math.pi, 0, 0)
